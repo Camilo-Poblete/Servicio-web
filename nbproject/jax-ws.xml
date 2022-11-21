@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jax-ws xmlns="http://www.netbeans.org/ns/jax-ws/1">
+  <services>
+    <service name="CAJA">
+      <implementation-class>Servicio.CAJA</implementation-class>
+    </service>
+    <service name="SERVICIOS_SOAP">
+      <implementation-class>Servicio.SERVICIOS_SOAP</implementation-class>
+    </service>
+    <service name="INSERTAR_STOCK">
+      <implementation-class>Servicio.INSERTAR_STOCK</implementation-class>
+    </service>
+    <service name="MODIFICAR">
+      <implementation-class>Servicio.MODIFICAR</implementation-class>
+    </service>
+    <service name="Cliente">
+      <implementation-class>Servicio.Cliente</implementation-class>
+    </service>
+    <service name="INGRESO_PEDIDO_PLATO">
+      <implementation-class>Servicio.INGRESO_PEDIDO_PLATO</implementation-class>
+    </service>
+    <service name="INSERTAR_PEDIDO">
+      <implementation-class>Servicio.INSERTAR_PEDIDO</implementation-class>
+    </service>
+    <service name="INGRESAR_ORDEN_PRODUCTO">
+      <implementation-class>Servicio.INGRESAR_ORDEN_PRODUCTO</implementation-class>
+    </service>
+  </services>
+  <clients/>
+</jax-ws>
